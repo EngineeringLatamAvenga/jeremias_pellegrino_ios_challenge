@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct Uala_Challange_iOSApp: App {
+struct Uala_iOS_challengeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Main()
+                .modifier(FontModifier())
         }
     }
 }
